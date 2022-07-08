@@ -1,0 +1,8 @@
+<div class="slider">
+    <ng-content></ng-content>
+    <div class="mt-3 mb-4 row-cols-2 row-cols-md-3 row row-cols-lg-5 g-3">
+        <div class="col" *ngFor="let data of sliderData">
+            <app-each-course [courseData]="data"></app-each-course>
+        </div>
+    </div>
+</div>

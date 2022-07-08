@@ -1,0 +1,6 @@
+<div class="h4 mt-4 fw-bold">Lectures for you — bite-size learning in minutes</div>
+<div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-2">
+    <div class="col" *ngFor="let dataObj of clipData">
+        <app-clip [data]="dataObj"></app-clip>
+    </div>
+</div>
